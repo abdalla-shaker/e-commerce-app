@@ -9,7 +9,9 @@ export default function MainNavigation() {
             <NavLink to="/e-commerce-app">Store</NavLink>
           </li>
           <li>
-            <NavLink to="add-product" relative="path">Admin page</NavLink>
+            <NavLink to="add-product" relative="path">
+              Admin page
+            </NavLink>
           </li>
         </ul>
       </nav>
