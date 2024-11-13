@@ -6,10 +6,10 @@ export default function MainNavigation() {
       <nav>
         <ul>
           <li>
-            <NavLink to="/">Store</NavLink>
+            <NavLink to="/e-commerce-app">Store</NavLink>
           </li>
           <li>
-            <NavLink to="/add-product" relative="path">Admin page</NavLink>
+            <NavLink to="add-product" relative="path">Admin page</NavLink>
           </li>
         </ul>
       </nav>
