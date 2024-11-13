@@ -16,7 +16,7 @@ function App() {
       element: <RootLayout />,
       errorElement: <ErrorPage />,
       children: [
-        { path: "/e-commerce-app", element: <Store /> },
+        { index: true, element: <Store /> },s
         { path: "/add-product", element: <AddProductPage /> },
       ],
     },
