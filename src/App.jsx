@@ -12,11 +12,11 @@ let WE_JUST_LANDED = true;
 function App() {
   const router = createBrowserRouter([
     {
-      path: "/e-commerce-app",
+      path: "/e-commerce-app/",
       element: <RootLayout />,
       errorElement: <ErrorPage />,
       children: [
-        { index: true, element: <Store /> },s
+        { path: "/e-commerce-app/, element: <Store /> },s
         { path: "/add-product", element: <AddProductPage /> },
       ],
     },
