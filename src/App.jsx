@@ -8,8 +8,6 @@ import { useEffect } from "react";
 import { useDispatch } from "react-redux";
 import { productActions } from "./store/product.js";
 
-let JUST_LANDED = true;
-
 function App() {
   const dispatch = useDispatch();
 
@@ -26,11 +24,6 @@ function App() {
   ]);
 
   useEffect(() => {
-    if (JUST_LANDED) {
-      JUST_LANDED = false;
-      return;
-    }
-
     const fetchingFunction = async () => {
       const fetchingProducts = async () => {
         const response = await fetch(
