@@ -9,7 +9,7 @@ export default function MainNavigation() {
             <NavLink to="/">Store</NavLink>
           </li>
           <li>
-            <NavLink to="/add-product">Admin page</NavLink>
+            <NavLink to="/add-product" relative="path">Admin page</NavLink>
           </li>
         </ul>
       </nav>
