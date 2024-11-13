@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.attribution {
+  margin-top: 3rem;
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+label.flex span {
+  margin-bottom: -16px;
+}
+
+.is-not-visible {
+  right: -100%;
+}
+
+body {
+  overflow-x: hidden;
+}
